@@ -1,0 +1,249 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #54335e ;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .LOGO
+  {
+    width: 120px;
+    height: 90px;
+  }
+  .buttons {
+    display: flex;
+  }
+
+  .button1 {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffd064;
+    color:#171717 ;
+    font-size: 14px;
+  }
+  .button1:hover {
+    background-color: #171717 ;
+    color:#fff ;
+  }
+  .row 
+  {
+    background-color:#ff6584;
+    height: 40px;
+    padding: 10px;
+  }
+  .van
+  {
+    margin: 6px;
+    list-style-type: none;
+    text-align: center;
+  }
+  .van li
+  {
+    font-size: large;
+    margin:20px ;
+    font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+  }
+  .button0 {
+    font-size: 18px;
+    color: #54335e;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .button:focus,
+  .button0:hover {
+    color: #fff;
+  }
+  
+  .button0:focus:after,
+  .button0:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .button0:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  .row1 {
+    display: flex;
+  }
+
+
+  body h1
+  {
+    text-align: center;
+    color: #54335e;
+    font-size: 60px;
+  }
+  .card-container {
+    margin: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    width: 300px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  .card-content h3
+  {
+    text-align: center;
+    font-size: 25px;
+  }
+  .card-content p
+  {
+    font-size: 17px;
+  }
+  .button
+  {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  .button2
+  {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #54335e;
+    width: 76px;
+    color:#fff ;
+    font-size: 14px;
+  }
+  .button2:hover {
+    background-color: #171717 ;
+    color:#fff ;
+  }
+  footer
+  {
+    margin: 0;
+    padding: 0;
+    background-color: #54335e;
+
+  }
+  footer h1
+  {
+    padding-top: 20px;
+    text-align: center;
+    color: #000;
+  }
+  .foot {
+    margin: auto;
+    width: 60%;
+    padding: 10x;
+    padding-left: 580px;
+
+  }
+  .card1 {
+    width: fit-content;
+    height: fit-content;
+    background-color: hsl (256,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne1:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo1:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree1:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour1:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
